@@ -6,7 +6,7 @@ sforeman@chapman.edu
 
 CPSC 298-01
 
-Assignment 1
+Assignment 2
 
 References Used:
 
