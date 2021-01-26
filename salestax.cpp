@@ -10,6 +10,7 @@ Assignment 2
 using namespace std;
 
 float addTax(float taxRate, float cost) {
+  // updates the cost 
   float updatedCost = cost + taxRate * cost;
   return (updatedCost);
 }

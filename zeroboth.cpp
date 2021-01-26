@@ -21,6 +21,7 @@ int main(int argc, char **argv) {
   cin >> number1;
   cout << "Enter a second number: ";
   cin >> number2;
+  // setting both numbers to 0
   zeroBoth(number1, number2);
   cout << "First number: " << number1 << endl;
   cout << "Second number: " << number2 << endl;

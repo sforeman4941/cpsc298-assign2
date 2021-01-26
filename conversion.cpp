@@ -21,6 +21,7 @@ void readUserInput(float& feet, float& inches) {
   cin >> inches;
 }
 
+// constant pass by reference so parameters are not changed
 void convertFtInToMCm(const float& feet, const float& inches, float& meters, float& centimeters) {
   meters = (feet + inches / feetToInches) * feetToMeters;
   centimeters = meters * metersToCentimeters;
@@ -42,6 +43,7 @@ int main (int argc, char **argv) {
     convertFtInToMCm(feet, inches, meters, centimeters);
     outputConversions(meters, centimeters);
     cout << "Type \"Exit\" to quit converting or anything else to continue." << endl;
+    // gets rid of previous line's return character 
     getline(cin, userContinueInput);
     getline(cin, userContinueInput);
   }
